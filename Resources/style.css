@@ -1,6 +1,7 @@
 /* Universal Styles */
 
 body {
+  margin: 0;
   font-family: Helvetica;
   font-size: 22px;
   color: seashell;
@@ -10,6 +11,17 @@ body {
 
 a {
   color: seashell;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+h2,h3,h4 {
+  margin: 0;
+  padding: 10px
 }
 
 /* Header */
@@ -43,4 +55,34 @@ nav span {
 nav {
   text-align: right;
   flex-grow: 1;
+}
+
+/* Mission */
+
+#mission {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-bedford-bizarre.jpg);
+  height: 700px;
+  padding-top: 70px;
+}
+
+#mission .mainmission {
+  margin: auto;
+  background-color: black;
+  width: 100%;
+}
+
+/* Tea of the Month */
+
+#tea {
+  width: 100px;
+  height: 700px;
+  margin: auto;
+  padding-top: 70px;
+}
+
+/* Locations */
+
+#locations {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+  
 }
